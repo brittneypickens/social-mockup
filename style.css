@@ -1,0 +1,10 @@
+* {box-sizing: border-box;}
+
+.main-box {
+    height: 350px;
+    width: 850px;
+    background-color: darkblue;
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
