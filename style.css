@@ -1,10 +1,110 @@
 * {box-sizing: border-box;}
 
 .main-box {
-    height: 350px;
-    width: 850px;
-    background-color: darkblue;
-    position: relative;
-    top: 5px;
-    left: 60px;
+        margin: auto;
+        height: 350px;
+        width: 850px;
+        background-color: darkblue;
+   }
+
+.page-buttons li {
+        list-style-type: none;
+        display: inline;
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: 0px;
+        left: 200px;
 }
+
+.page-buttons {
+        height: 40px;
+        width: 850px;
+        background-color: wheat;
+        position: relative;
+        top: -25px;
+        left: 194px;
+}
+
+.profile-picture {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSww8cLmJGUDKPVjeHpbPUqCHHOrkwGpMHtNE13fwF_SnR9Du6f&usqp=CAU);
+        height: 200px;
+        width: 200px;
+        background-color:darkblue;
+        border: black solid 1px;
+        position: relative;
+        top: -240px;
+        left: 230px;
+}
+
+.page-name {
+         color: white;
+        position: relative;
+        height: 100px;
+        width: 250px;
+        top: -390px;
+        left: 435px;
+}
+
+.buttons {
+        font-size: 0px;
+        position: relative;
+        height: 80px;
+        width: 250px;
+        top: -415px;
+        left: 745px;
+    
+}
+
+.column-left {
+        width: 327px;
+        height: 600px;
+        border: 1px solid gray;
+        position: relative;
+        top: -400px;
+        left: 193px;
+        column-gap: 10px;
+
+
+}
+
+.column-right {
+        width: 511px;
+        height: 600px;
+        border: 1px solid grey;
+        position: relative;
+        top: -1000px;
+        left: 530px;
+}
+
+h3 {
+        font-size: 15px;
+        position: relative;
+        width: 327px;
+        height: 180px;
+        border: 1px solid green;
+        top: -1600px;
+        left: 193px;
+}
+
+.cover-words {
+        position: relative;
+        width: 511px;
+        height: 600;
+        border: 1px solid green;
+        top: -1793px;
+        left: 530px;
+
+}
+
+.cover-photo {
+        background-image: url(https://animals.net/wp-content/uploads/2018/11/Sulcata-Tortoise-4-650x425.jpg);
+        width: 511px;
+        height: 300px;
+        border: 1px solid green;
+        position: relative;
+        top: -1793px;
+        left: 530px;
+}
+
+
