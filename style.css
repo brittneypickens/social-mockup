@@ -1,7 +1,7 @@
 * {box-sizing: border-box;}
 
 .main-box {
-        margin: auto;
+        margin: 0 auto;
         height: 350px;
         width: 850px;
         background-color: darkblue;
@@ -69,7 +69,7 @@
 }
 
 .column-right {
-        width: 511px;
+        width: 512px;
         height: 600px;
         border: 1px solid grey;
         position: relative;
@@ -80,7 +80,7 @@
 h3 {
         font-size: 15px;
         position: relative;
-        width: 327px;
+        width: 328px;
         height: 180px;
         border: 1px solid green;
         top: -1600px;
